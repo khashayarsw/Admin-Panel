@@ -1,0 +1,29 @@
+.list-li {
+    width: 100%;
+    display: inline-block;
+    padding: 30px 10px;
+    text-align: left;
+    border-bottom: 1px solid #ededed;
+
+    &:hover {
+        box-shadow: 0 0 20px 0px #bbb;
+    }
+}
+
+.desc-wrapper {
+    float: left;
+}
+
+.btns {
+    position: relative;
+    float: right;
+    width: 30px;
+    height: 30px;
+
+    img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        cursor: pointer;
+    }
+}
