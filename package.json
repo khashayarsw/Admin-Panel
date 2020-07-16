@@ -1,7 +1,7 @@
 {
   "name": "admin-panel",
   "version": "1.0.0",
-  "homepage": "http://khashayarsw.github.io/",
+  "homepage": "http://khashayarsw.github.io/Login-Panel/",
   "description": "",
   "main": "index.js",
   "scripts": {
