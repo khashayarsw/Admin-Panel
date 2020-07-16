@@ -1,9 +1,12 @@
 {
   "name": "admin-panel",
   "version": "1.0.0",
+  "homepage": "http://khashayarsw.github.io/Login-Panel",
   "description": "",
   "main": "index.js",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "webpack-dev-server --mode development",
     "build": "webpack --mode production"
   },
@@ -12,6 +15,7 @@
   "dependencies": {
     "axios": "^0.19.2",
     "cogo-toast": "^4.2.3",
+    "gh-pages": "^3.1.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-helmet": "^6.0.0",
@@ -21,6 +25,7 @@
     "redux": "^4.0.5",
     "redux-persist": "^6.0.0",
     "redux-thunk": "^2.3.0",
+    "save-dev": "0.0.1-security",
     "validator": "^13.0.0"
   },
   "devDependencies": {
